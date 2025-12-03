@@ -1,0 +1,579 @@
+/* all icon size */
+.icon {
+  width: 30px;
+  height: 30px;
+}
+.mail-icon,
+.sns-icon {
+  width: 1.5em;
+  height: 1.5em;
+}
+.sns-icon-box {
+  width: 32px;
+  height: 32px;
+  box-sizing: border-box;
+  transition: all 0.5s;
+  border: none;
+}
+/* all font size */
+h1,
+h2 {
+  font-size: 1.7rem;
+  line-height: 2.2rem;
+  margin-bottom: 1rem;
+}
+.text-box p {
+  font-size: 1rem;
+  line-height: 1.6rem;
+}
+
+/* 1층: header > nav */
+.nav-box {
+  align-items: center;
+  justify-content: space-between;
+}
+.header-logo-box {
+  padding: 1rem;
+}
+.header-logo {
+  width: 92px;
+}
+.header-menu-list {
+  align-items: center;
+  justify-content: center;
+  padding: 40px 15px;
+  color: black;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+.header-menu-list .btn-download {
+  margin-left: 20px;
+}
+.menu-open-box {
+  padding: 1.35rem 1rem 0.65rem 1rem;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+.icon-menu {
+  width: 32px;
+  height: 32px;
+}
+/* header > Hero Section */
+.header-hero-box {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+.hero-article-box {
+  width: 280px;
+}
+.header-text-box {
+  margin: 2rem 0;
+}
+.header-text-box p {
+  font-weight: 500;
+}
+.box-cat {
+  width: 197px;
+  height: auto;
+  margin-bottom: -4.5rem;
+}
+
+/* 2층: Card Section */
+.lying-cat-box {
+  align-items: center;
+  max-width: 100%;
+  box-shadow: var(--shadow-md);
+}
+.lying-cat {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* 3층: Gallery Section */
+.gallery-top-text-box {
+  margin: 2.5rem 0;
+}
+.gallery-p-accent {
+  font-size: 1.15rem;
+}
+.gallery-article-box p {
+  font-size: 1.13rem;
+  font-weight: 500;
+}
+.gallery-article-top-box p {
+  line-height: 1.5rem;
+}
+.gallery-article-bottom-box p {
+  line-height: 1.9rem;
+}
+/* Gallery Section > images */
+.gallery-img-box {
+  justify-content: space-between;
+  gap: 3rem;
+}
+.gallery-img {
+  width: 260px;
+  height: auto;
+  box-shadow: var(--shadow-sm);
+}
+.gallery-img img {
+  height: 100%;
+}
+
+/* 4층: Subscribe Section */
+.subscribe-container {
+  width: 100%;
+  height: 340px;
+  margin: 18rem 0 -2rem 0;
+  background: url("../images/up-cat.png") no-repeat center;
+  background-size: 100%;
+}
+.section-subscribe {
+  width: 90%;
+  margin: 0 auto;
+  padding: 1.8rem;
+  box-sizing: border-box;
+  background-color: var(--dark-bg);
+  transform: translateY(-15rem);
+}
+/* 4층: Subscribe Section > input box */
+.subscribe-input-container,
+.subscribe-input-box {
+  align-items: center;
+}
+.subscribe-input-container {
+  width: 100%;
+}
+.subscribe-input-box {
+  position: relative;
+}
+.mail-icon-box {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+input[type="email"] {
+  width: 100%;
+  padding: 1rem 1rem 1rem 0.5rem;
+  font-size: 0.8rem;
+}
+.subscribe-btn-box {
+  z-index: 1;
+}
+
+/* 5층: footer */
+.footer-box {
+  position: relative;
+}
+.icon-arrow-up-box {
+  position: absolute;
+  right: 1.5rem;
+  top: -1rem;
+  background-color: var(--white-color);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  opacity: 0.7;
+}
+.icon-arrow-up-box:hover {
+  opacity: 1;
+}
+
+/* modal hidden */
+.modal-container.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+/* modal */
+.modal-container {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.75s ease, visibility 0.75s ease;
+}
+.modal-box {
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 300px;
+  height: 300px;
+  padding: 2.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  border-radius: 2rem;
+  background-color: var(--pink-bg-color);
+  box-shadow: var(--shadow-lg);
+}
+.modal-cat {
+  width: 60px;
+  margin-left: -0.5rem;
+}
+.modal-text-box h2 {
+  margin-bottom: 0.6rem;
+}
+.modal-text-box p {
+  font-size: 1rem;
+  line-height: 1.3rem;
+}
+/* modal btn */
+.modal-close-btn {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+  width: 30px;
+  height: 30px;
+  border: none;
+  box-shadow: var(--shadow-sm);
+}
+.modal-ok-btn {
+  height: 45px;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+  color: var(--white-color);
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 1.8rem;
+  border: none;
+  cursor: pointer;
+}
+
+/* ========================================================= */
+/*                         미디어쿼리                         */
+/* ========================================================= */
+
+/* 모바일 버전 디테일 */
+@media (min-width: 400px) and (max-width: 767px) {
+  /* 2층: Card Section */
+  .lying-cat-box {
+    margin: 0 auto;
+  }
+}
+
+/* 모바일 버전 */
+@media (max-width: 767px) {
+  /* content size */
+  .header-box,
+  .section-box,
+  .footer-box {
+    max-width: 100%;
+  }
+  .section-box {
+    margin: 2rem 2rem 4rem 2rem;
+  }
+
+  /* 1층: header > nav */
+  .header-menu {
+    display: none;
+  }
+  /* header > Hero Section */
+  .hero-article-box .btn-box {
+    justify-content: center;
+  }
+
+  /* 2층: Card Section */
+  .section-card {
+    flex-direction: column;
+  }
+  .lying-cat-box {
+    width: 326px;
+    height: 190px;
+  }
+  .card-article-box {
+    margin: 2.5rem 0;
+  }
+
+  /* 3층: Gallery Section > images */
+  .gallery-img-box {
+    padding: 5%;
+  }
+  /* Gallery Section > Bottom */
+  .gallery-bottom-text-box {
+    margin: 2.5rem 0 0.5rem 0;
+  }
+  .btn-more-box {
+    justify-content: flex-end;
+  }
+
+  /* 3층 + 4층 반응형 */
+  .gallery-article-bottom-box,
+  .section-subscribe,
+  .subscribe-input-container {
+    flex-direction: column;
+  }
+
+  /* 4층: Subscribe Section > input box */
+  .subscribe-input-box {
+    width: 100%;
+    height: 40px;
+    margin: 1.3rem 0 1.1rem 0;
+    background-color: var(--white-color);
+    box-sizing: border-box;
+    border-radius: 2rem;
+    overflow: hidden;
+  }
+  .subscribe-btn-box {
+    justify-content: flex-end;
+    width: 100%;
+  }
+  .mail-icon-box {
+    left: 1.3rem;
+  }
+  input[type="email"] {
+    margin-left: 3.3rem;
+  }
+
+  /* 5층: footer */
+  .icon-arrow-up-box {
+    display: none;
+  }
+  .footer-bottom-box {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    padding: 3rem 1.5rem 2rem 1.5rem;
+  }
+  .footer-logo-box {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .footer-logo {
+    width: 110px;
+    height: 39px;
+  }
+  /* footer > bottom box */
+  .footer-menu,
+  .icon-list-box {
+    gap: 1rem;
+  }
+  .footer-menu {
+    align-self: start;
+    flex-direction: column;
+    grid-column: 2;
+    grid-row: 1 / span 2;
+  }
+  .footer-menu-list {
+    text-align: right;
+  }
+  .icon-list-box {
+    grid-row: 2;
+    grid-column: 1;
+    align-items: flex-end;
+  }
+}
+
+/* 테블릿, 데스크탑 버전 */
+@media (min-width: 768px) {
+  /* content size */
+  .header-box,
+  .section-box,
+  .footer-box {
+    max-width: 1280px;
+  }
+  .header-box,
+  .footer-box {
+    margin: 0 auto;
+  }
+  .section-box {
+    margin: 3rem auto 0 auto;
+    padding: 1%;
+  }
+
+  /* all icon size */
+  .icon-box {
+    width: 42px;
+    height: 42px;
+  }
+  /* all font size */
+  h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+    margin-bottom: 2.2rem;
+  }
+  h2 {
+    font-size: 2.25rem;
+    line-height: 2.9rem;
+    margin-bottom: 2rem;
+  }
+  .text-box p {
+    line-height: 1.3rem;
+  }
+
+  /* 1층: header > nav */
+  .logo {
+    width: 149px;
+  }
+  .header-menu {
+    align-items: center;
+    justify-content: space-between;
+  }
+  .menu-open-box {
+    display: none;
+  }
+  /* header > Hero Section */
+  .header-hero-box {
+    flex-direction: row;
+  }
+  .hero-article-box {
+    width: 740px;
+    padding-left: 30px;
+  }
+  .hero-article-box h1,
+  .hero-article-box p {
+    text-align: left;
+  }
+  .hero-article-box .btn-box {
+    justify-content: flex-start;
+  }
+  .box-cat {
+    width: 415px;
+    margin-bottom: -8rem;
+  }
+
+  /* 2층: Card Section */
+  .section-card {
+    align-items: center;
+    justify-content: space-between;
+    gap: 6rem;
+  }
+  .lying-cat-box {
+    width: 660px;
+    height: 390px;
+  }
+  .card-article-box {
+    width: 510px;
+  }
+
+  /* 3층: Gallery Section > images */
+  .gallery-img-container {
+    width: min(100%, 1280px);
+  }
+  .gallery-img-box {
+    width: 90%;
+    padding: 5%;
+  }
+  .gallery-img {
+    width: 378px;
+  }
+  /* Gallery Section > bottom */
+  .gallery-article-top-box {
+    margin: 2rem 0 4rem 0;
+  }
+  .gallery-article-bottom-box {
+    align-items: center;
+    justify-content: center;
+    gap: 3.25rem;
+    margin: 4rem 2rem -4rem 2rem;
+  }
+
+  /* 3층 + 4층 반응형 */
+  .gallery-article-bottom-box,
+  .section-subscribe,
+  .subscribe-input-container {
+    flex-direction: row;
+  }
+
+  /* 4층: Subscribe Section */
+  .section-subscribe {
+    justify-content: space-between;
+    max-width: 1280px;
+    padding: 3rem;
+    align-items: center;
+    transform: translateY(-10rem);
+  }
+  .subscribe-article-box p {
+    font-size: 0.875rem;
+  }
+  /* Subscribe Section > input box */
+  .subscribe-input-container {
+    justify-content: space-between;
+    width: 530px;
+    box-sizing: border-box;
+    background-color: var(--white-color);
+    border: 5px solid var(--white-color);
+  }
+  .mail-icon-box {
+    left: 1rem;
+  }
+  input[type="email"] {
+    margin-left: 3rem;
+    max-width: 100%;
+  }
+
+  /* 5층: footer */
+  .footer-box {
+    margin-top: -3rem;
+  }
+  .footer-logo {
+    width: 226px;
+  }
+  .footer-menu {
+    display: none;
+  }
+  .footer-bottom-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 1.5rem 1.5rem 1.5rem;
+  }
+  .icon-list-box {
+    gap: 1.25rem;
+  }
+
+  /* modal */
+  .modal-box {
+    width: 600px;
+    height: 400px;
+    padding: 3.5rem;
+  }
+  .modal-cat {
+    width: 110px;
+    margin-left: -1.5rem;
+  }
+  .modal-text-box p {
+    font-size: 0.875rem;
+  }
+  .modal-ok-btn {
+    height: 3.5rem;
+  }
+}
+
+/* 테블릿 버전 따로 */
+@media (min-width: 768px) and (max-width: 1070px) {
+  .subscribe-input-container {
+    display: flex;
+    align-items: center;
+  }
+  .mail-icon-box {
+    left: 0.5rem;
+  }
+  input[type="email"] {
+    margin-left: 3rem;
+    font-size: 0.7rem;
+  }
+  .btn-subscribe {
+    padding: 0.6rem;
+  }
+}
+/* 데스크탑 버전 따로 */
+@media (min-width: 1071px) {
+  .subscribe-input-container {
+    height: 60px;
+  }
+  input[type="email"] {
+    padding: 1.25rem;
+    font-size: 1rem;
+  }
+}

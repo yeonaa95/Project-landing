@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>김연화_ZADU_랜딩페이지</title>
+    <link rel="stylesheet" href="./styles/common.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <style></style>
+  </head>
+  <body>
+    <!-- --header-bg -->
+    <header class="header-container">
+      <!-- 1층: header -->
+      <div class="header-box">
+        <!-- header > nav -->
+        <nav class="nav-box flex">
+          <!-- nav > logo -->
+          <a class="header-logo-box" href="#">
+            <img
+              class="header-logo"
+              src="./images/logo-h.png"
+              alt="ZADU_logo"
+            />
+          </a>
+          <!-- nav > menu -->
+          <div class="header-menu flex">
+            <a class="header-menu-list" href="#">Home</a>
+            <a class="header-menu-list" href="#">About</a>
+            <a class="header-menu-list" href="#">Support</a>
+            <a class="header-menu-list flex" href="#">
+              <button class="btn btn-download bg-orange" type="button">
+                Download
+              </button>
+            </a>
+          </div>
+          <!-- nav > menu OPEN button -->
+          <button class="menu-open-box" type="button">
+            <svg
+              class="icon-menu"
+              viewBox="0 0 32 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M4 16H28"
+                stroke="#263140"
+                stroke-width="2"
+                stroke-linecap="square"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M4 8H28"
+                stroke="#263140"
+                stroke-width="2"
+                stroke-linecap="square"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M4 24H28"
+                stroke="#263140"
+                stroke-width="2"
+                stroke-linecap="square"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+        </nav>
+
+        <!-- header > Hero Section -->
+        <section class="header-hero-box flex overflow-hidden">
+          <!-- Hero Section > text -->
+          <article class="hero-article-box">
+            <h1 class="font-bold">
+              Lorem Ipsum is simply dummy text of the printing and
+            </h1>
+            <div class="text-box header-text-box">
+              <p class="">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+              <p class="">
+                Lorem Ipsum has been the industry's standard dummy text ever
+                since the 1500s, when an unknown
+              </p>
+            </div>
+            <!-- Hero Section > button -->
+            <div class="btn-box flex">
+              <button class="btn btn-download bg-orange" type="button">
+                Download
+              </button>
+            </div>
+          </article>
+          <!-- Hero Section > image -->
+          <div class="hero-cat-box">
+            <img
+              class="box-cat"
+              src="./images/box-cat.png"
+              alt="박스를 뒤집어 쓴 고양이"
+            />
+          </div>
+        </section>
+      </div>
+    </header>
+
+    <main class="main-container">
+      <!-- 2층: Card Section -->
+      <section class="section-box section-card flex">
+        <!-- Card Section > image -->
+        <div class="lying-cat-box flex border-radius overflow-hidden">
+          <img
+            class="lying-cat"
+            src="./images/img_4.jpg"
+            alt="누워있는 고양이"
+          />
+        </div>
+        <!-- Card Section > text -->
+        <article class="card-article-box">
+          <h2 class="font-bold text-left">
+            Lorem Ipsum is simply dummy text of the printing and dummy text
+          </h2>
+          <div class="text-box">
+            <p class="text-left">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <!-- 3층: Gallery Section -->
+      <section class="section-box section-gallery">
+        <!-- Gallery Section > top > text -->
+        <article class="gallery-article-box gallery-article-top-box">
+          <h1 class="text-bold color-orange">
+            dummy text of the printing and dummy
+          </h1>
+          <div class="text-box gallery-top-text-box">
+            <p class="">
+              Lorem Ipsum is simply
+              <span class="gallery-p-accent color-orange font-bold"
+                >dummy text</span
+              >
+              of the printing and typesetting industry.
+            </p>
+            <p class="">
+              Lorem Ipsum has been the industry's standard dummy text ever since
+              the 1500s, when an unknown
+            </p>
+          </div>
+        </article>
+        <!-- Gallery Section > images -->
+        <div class="gallery-img-container flex overflow-hidden">
+          <div class="gallery-img-box flex transition-2s">
+            <div class="gallery-img border-radius overflow-hidden">
+              <img
+                class="cat-tower"
+                src="./images/img_1.jpg"
+                alt="캣 타워 고양이"
+              />
+            </div>
+            <div class="gallery-img border-radius overflow-hidden">
+              <img
+                class="cat-back"
+                src="./images/img_2.jpg"
+                alt="뒷 모습 고양이"
+              />
+            </div>
+            <div class="gallery-img border-radius overflow-hidden">
+              <img
+                class="cat-front"
+                src="./images/img_3.jpg"
+                alt="정면 고양이"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- Gallery Section > bottom > text -->
+        <article
+          class="gallery-article-box gallery-article-bottom-box flex transition-1s"
+        >
+          <div class="text-box gallery-bottom-text-box">
+            <p class="text-left">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <p class="text-left">
+              Lorem Ipsum has been the industry's standard dummy text ever since
+              the 1500s, when an unknown
+            </p>
+            <p class="text-left">
+              Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+          </div>
+          <div class="btn-more-box flex">
+            <button class="btn btn-more bg-orange" type="button">
+              Learn More
+            </button>
+          </div>
+        </article>
+      </section>
+
+      <!-- subscribe-bg (뿌연 고양이) -->
+      <div class="subscribe-container">
+        <!-- 4층: Subscribe Section -->
+        <section class="section-subscribe flex border-radius transition-1s">
+          <!-- Subscribe Section > text -->
+          <article class="subscribe-article-box">
+            <h2 class="orange-title color-white text-left">
+              Subscribe to our Blog post
+            </h2>
+            <div class="text-box">
+              <p class="color-light-gray text-left">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+              <p class="color-light-gray text-left margin-none">
+                Lorem Ipsum has been the industry's standard dummy text
+              </p>
+            </div>
+          </article>
+          <!-- Subscribe Section > input box -->
+          <div class="subscribe-input-container flex border-radius">
+            <div class="subscribe-input-box">
+              <!-- input box > mail-icon -->
+              <span class="icon-box mail-icon-box">
+                <svg
+                  class="mail-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z"
+                    stroke="#767676"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M22 6L12 13L2 6"
+                    stroke="#767676"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+              <!-- input box > email input -->
+              <input
+                class="section-emali-input text-left"
+                type="email"
+                placeholder="Enter your e-mail address"
+              />
+            </div>
+            <!-- input box > email button -->
+            <div class="subscribe-btn-box flex">
+              <button
+                id="subscribe-btn"
+                class="btn btn-subscribe bg-orange"
+                type="button"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- 5층: footer -->
+      <footer class="footer-box transition-1s">
+        <!-- footer icon: arrow-up -->
+        <a class="icon-box icon-arrow-up-box flex" href="#">
+          <svg
+            class="icon icon-arrow-up"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 40 40"
+            fill="none"
+          >
+            <g clip-path="url(#clip0_6427_2712)">
+              <path
+                d="M12.35 25.6833L20 18.0499L27.65 25.6833L30 23.3333L20 13.3333L10 23.3333L12.35 25.6833Z"
+                fill="#767676"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_6427_2712">
+                <rect width="40" height="40" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+        </a>
+        <!-- footer bottom -->
+        <section class="footer-bottom-box">
+          <a class="footer-logo-box flex" href="#">
+            <img
+              class="footer-logo"
+              src="./images/logo-h.png"
+              alt="ZADU_logo"
+            />
+          </a>
+          <!-- footer bottom menu -->
+          <div class="footer-menu flex">
+            <a class="footer-menu-list color-gray" href="#">About</a>
+            <a class="footer-menu-list color-gray" href="#">Blog</a>
+            <a class="footer-menu-list color-gray" href="#">Support</a>
+            <a class="footer-menu-list color-gray" href="#">Terms of Use</a>
+          </div>
+          <!-- footer sns icons -->
+          <div class="icon-list-box flex">
+            <a class="icon-box sns-icon-box" href="#">
+              <svg
+                class="sns-icon icon-blog"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.096 7.18477C11.7929 7.18477 10.5732 7.54601 9.53402 8.17587V2H5V20.6457H9.53402V20.0089C10.5732 20.6364 11.7929 21 13.096 21C16.9079 21 20 17.9063 20 14.0924C20 10.2762 16.9102 7.18477 13.096 7.18477ZM12.4271 16.8781C10.8301 16.8781 9.53402 15.5814 9.53402 13.9835C9.53402 12.3857 10.8301 11.089 12.4271 11.089C14.0241 11.089 15.3202 12.3857 15.3202 13.9835C15.3202 15.5837 14.0241 16.8781 12.4271 16.8781Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
+            <a class="icon-box sns-icon-box" href="#">
+              <svg
+                class="sns-icon icon-instagram"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M17 2H7C4.23858 2 2 4.23858 2 7V17C2 19.7614 4.23858 22 7 22H17C19.7614 22 22 19.7614 22 17V7C22 4.23858 19.7614 2 17 2Z"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M16 11.3701C16.1234 12.2023 15.9812 13.0523 15.5937 13.7991C15.2062 14.5459 14.5931 15.1515 13.8416 15.5297C13.0901 15.908 12.2384 16.0397 11.4077 15.906C10.5771 15.7723 9.80971 15.3801 9.21479 14.7852C8.61987 14.1903 8.22768 13.4229 8.09402 12.5923C7.96035 11.7616 8.09202 10.91 8.47028 10.1584C8.84854 9.40691 9.45414 8.7938 10.2009 8.4063C10.9477 8.0188 11.7977 7.87665 12.63 8.00006C13.4789 8.12594 14.2648 8.52152 14.8716 9.12836C15.4785 9.73521 15.8741 10.5211 16 11.3701Z"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M17.5 6.5H17.51"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+            <a class="icon-box sns-icon-box" href="#">
+              <svg
+                class="sns-icon icon-facebook"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M17 2H14C12.6739 2 11.4021 2.52678 10.4645 3.46447C9.52678 4.40215 9 5.67392 9 7V10H6V14H9V22H13V14H16L17 10H13V7C13 6.73478 13.1054 6.48043 13.2929 6.29289C13.4804 6.10536 13.7348 6 14 6H17V2Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
+            <a class="icon-box sns-icon-box" href="#">
+              <svg
+                class="sns-icon icon-youtube"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22.54 6.42C22.4212 5.94541 22.1792 5.51057 21.8386 5.15941C21.498 4.80824 21.0707 4.55318 20.6 4.42C18.88 4 12 4 12 4C12 4 5.11996 4 3.39996 4.46C2.92921 4.59318 2.50194 4.84824 2.16131 5.19941C1.82068 5.55057 1.57875 5.98541 1.45996 6.46C1.14518 8.20556 0.991197 9.97631 0.999961 11.75C0.988741 13.537 1.14273 15.3213 1.45996 17.08C1.59092 17.5398 1.83827 17.9581 2.17811 18.2945C2.51794 18.6308 2.93878 18.8738 3.39996 19C5.11996 19.46 12 19.46 12 19.46C12 19.46 18.88 19.46 20.6 19C21.0707 18.8668 21.498 18.6118 21.8386 18.2606C22.1792 17.9094 22.4212 17.4746 22.54 17C22.8523 15.2676 23.0063 13.5103 23 11.75C23.0112 9.96295 22.8572 8.1787 22.54 6.42Z"
+                  fill="white"
+                />
+                <path
+                  d="M9.75 15.02L15.5 11.75L9.75 8.47998V15.02Z"
+                  fill="#F29D52"
+                />
+              </svg>
+            </a>
+          </div>
+        </section>
+      </footer>
+    </main>
+
+    <!-- modal -->
+    <section id="my-modal" class="modal-container hidden">
+      <article
+        class="modal-box flex border-radius overflow-hidden transition-075s"
+      >
+        <button
+          id="modal-close-btn"
+          class="icon-box modal-close-btn bg-orange"
+          type="button"
+        >
+          <svg
+            class="icon color-white"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            aria-hidden="true"
+          >
+            <line
+              x1="7"
+              y1="7"
+              x2="17"
+              y2="17"
+              stroke="currentColor"
+              stroke-width="2.2"
+              stroke-linecap="round"
+            />
+            <line
+              x1="17"
+              y1="7"
+              x2="7"
+              y2="17"
+              stroke="currentColor"
+              stroke-width="2.2"
+              stroke-linecap="round"
+            />
+          </svg>
+        </button>
+        <img
+          class="modal-cat"
+          src="./images/cat-subscribe.png"
+          alt="고양이 얼굴"
+        />
+        <div class="modal-text-box">
+          <h2 class="color-orange font-bold">Thank you!</h2>
+          <p class="">
+            Lorem Ipsum is simply dummy text of the printing industry.
+          </p>
+        </div>
+        <button
+          id="modal-ok-btn"
+          class="btn modal-ok-btn color-white bg-orange"
+          type="button"
+        >
+          OK! I Love ZADU
+        </button>
+      </article>
+    </section>
+
+    <!-- script -->
+    <script>
+      // 필요한 요소 선택
+      const modal = document.getElementById("my-modal");
+      const subscribeBtn = document.getElementById("subscribe-btn");
+      const okBtn = document.getElementById("modal-ok-btn");
+      const closeBtn = document.getElementById("modal-close-btn");
+
+      // 1. Subscribe-btn > click > modal open
+      subscribeBtn.addEventListener("click", function (event) {
+        event.preventDefault();
+        modal.classList.remove("hidden");
+      });
+
+      // 2. close-btn > click > modal close
+      okBtn.addEventListener("click", function () {
+        modal.classList.add("hidden");
+      });
+      closeBtn.addEventListener("click", function () {
+        modal.classList.add("hidden");
+      });
+
+      // 3. overlay > click > modal close
+      modal.addEventListener("click", function (event) {
+        if (event.target === modal) {
+          modal.classList.add("hidden");
+        }
+      });
+    </script>
+  </body>
+</html>
